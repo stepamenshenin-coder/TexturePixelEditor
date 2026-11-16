@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="texture_pixel_editor"
+version="1.0.0"
+displayName="Texture Pixel Editor"
+authors="Texture Pixel Editor"
+description='''In-game pixel texture editor for Minecraft 1.20.1 Forge.'''
+
+[[dependencies.texture_pixel_editor]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="CLIENT"
+
+[[dependencies.texture_pixel_editor]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="CLIENT"
